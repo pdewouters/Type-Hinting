@@ -1,8 +1,6 @@
-I was recently reviewing some PHP Docblocks for the Easy digital downloads project, and noticed that most functions that took an array parameters weren't type hinted, so I added the type hint when correcting the PHP Docblock. 
+I created this document as a way to gain more understanding about the use of type hinting in PHP methods.
 
-The repository owner questioned my choice, and so I wanted to back up my decision with some strong arguments, which led me to do this research.
-
-Originally the Docblocks and function signature looked like this:
+In a project I was working on recently, the Docblocks and function signature looked like this:
 
 	/**
 	 * Our object constructor
