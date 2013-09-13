@@ -178,6 +178,8 @@ Here's a complete example:
 		echo $e->getMessage();
 
 	}
+	
+Would be nice to use `WP_Error` somehow
 
 A few code samples with the different cases:
 
